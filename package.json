@@ -1,0 +1,18 @@
+{
+  "name": "webgpu-ts-sample",
+  "version": "1.0.0",
+  "description": "Needs chrome dev channel with chrome://flags/#enable-unsafe-webgpu enabled",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@webgpu/types": "0.0.34"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^4.1.3"
+  },
+  "keywords": []
+}
